@@ -143,7 +143,8 @@ bool replenish_central_pool(std::size_t class_index) noexcept
     const std::size_t allocation_size =
         align_up(chunk_total_size(DEFAULT_CHUNK_DATA_BYTES), CACHE_LINE_SIZE);
 
-    void* const raw = ::operator new(allocation_size, std::align_val_t{CACHE_LINE_SIZE});
+    //void* const raw = ::operator new(allocation_size, std::align_val_t{CACHE_LINE_SIZE});
+    void* const raw = ::operator new(allocation_size, std::align_val_t{CACHE_LINE_SIZE}, std::nothrow);
     if (raw == nullptr) {
         return false;
     }

@@ -1,3 +1,0 @@
-C:/Users/Asus Vivobook/OneDrive/Desktop/Memory Allocation Engine/build/CMakeFiles/benchmark.dir
-C:/Users/Asus Vivobook/OneDrive/Desktop/Memory Allocation Engine/build/CMakeFiles/edit_cache.dir
-C:/Users/Asus Vivobook/OneDrive/Desktop/Memory Allocation Engine/build/CMakeFiles/rebuild_cache.dir
